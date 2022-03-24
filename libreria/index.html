@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <h1>Your Library  <img src="https://www.kindpng.com/picc/m/543-5432090_transparent-addition-symbol-clipart-icon-button-add-png.png" alt="Add book" width="50px" height="50px" >  </h1></header>
+    <div id="display">
+        <div class="book"><img src="https://images-na.ssl-images-amazon.com/images/I/A1y0jd28riL.jpg" alt="Front-Page" width="200" height="250"><h2>Author: J.R Tolkien and Title:The Two Towers</h2><p>Number of pages:345.  Readed<input type="checkbox" value="no" > </p></div>
+        <div class="book"><img src="https://images-na.ssl-images-amazon.com/images/I/A1abi3dnL9L._RI_.jpg" alt="Front-Page" width="200" height="250"><h2>Author: J.R Tolkien and Title:The Fellowship of the ring</h2><p>Number of pages:345.  Readed <input type="checkbox" value="no"> </p></div>
+        <div class="book"><img src="https://images-na.ssl-images-amazon.com/images/I/91m8vgNyhBL.jpg" alt="Front-Page" width="200" height="250"><h2>Author: J.R Tolkien and Title:The Return of the King </h2><p>Number of pages:345.  Readed <input type="checkbox" value="no"> </p></div>
+        
+    </div>
+    <div  >
+        <form class="hidden action="post">
+            <label for="Author">Author:</label><input type="text" name="Author" placeholder="J.R. Tolkien" required> 
+            <label for="Title" >Title:</label><input type="text" name="Title" placeholder="The Two Towers" required> 
+            <label for="Image">Image(Optional URL):</label><input type="text" name="Image" value="nada" placeholder="URL"> 
+            <label for="Pages">Pages:</label><input type="number" name="Pages" placeholder="345" required min="50" > 
+            <label for="Readed">Readed:</label> <input type="checkbox" name="Readed">
+            <input type="button" value="Add book to the Library">
+        </form>
+    </div>
+    <script src="./libreria.js"></script>
+</body>
+</html>

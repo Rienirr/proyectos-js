@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/3876079.jpg);
+}
+.hidden{
+    display: none !important;
+}
+h1{
+    color: antiquewhite;
+    font-size: 3em;
+}
+h1,h2{
+   text-align: center;
+}
+
+h2{
+    font-size: 14px;
+}
+#display{
+    display: grid;
+    grid-template:400px/ 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    gap: 100px;
+
+}
+img{
+    margin-left: 190px;
+}
+input+img{
+    margin-left: 10px;
+}
+h1 img{
+    position: relative;
+    top: 15px;
+    margin-left: 90px;
+}
+.book p{
+  
+    text-align: center;
+}
+.book{
+    background-color: #ccc;
+    padding: 15px;
+    border: 5px solid blanchedalmond;
+    border-radius: 20px;
+}
+input{
+    margin: 10px 20px;
+}
+button{
+    margin-left: 25px;
+}
+label{
+    margin-left: 25px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    margin-left: 40%;
+    padding: 15px;
+    border: 5px solid black ;
+    border-radius: 20px;
+    background-color: sandybrown;
+    width: 250px;
+}
